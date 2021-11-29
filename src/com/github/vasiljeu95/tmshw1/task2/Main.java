@@ -7,32 +7,29 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
 
-        if (num >= 0 && num <= 6) {
-            switch (num) {
-                case 1:
-                    System.out.println("one");
-                    break;
-                case 2:
-                    System.out.println("two");
-                    break;
-                case 3:
-                    System.out.println("three");
-                    break;
-                case 4:
-                    System.out.println("four");
-                    break;
-                case 5:
-                    System.out.println("five");
-                    break;
-                case 6:
-                    System.out.println("six");
-                    break;
-                default:
-                    System.out.println("invalid");
-            }
-        } else {
-            System.out.println("Error! This number is incorrect!");
+        switch (num) {
+            case 1:
+                System.out.println("one");
+                break;
+            case 2:
+                System.out.println("two");
+                break;
+            case 3:
+                System.out.println("three");
+                break;
+            case 4:
+                System.out.println("four");
+                break;
+            case 5:
+                System.out.println("five");
+                break;
+            case 6:
+                System.out.println("six");
+                break;
+            default:
+                System.out.println("invalid");
         }
     }
 }
+
 
